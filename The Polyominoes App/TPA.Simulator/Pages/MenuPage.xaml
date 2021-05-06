@@ -1,0 +1,22 @@
+﻿<Page x:Class="TPA.Simulator.Pages.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TPA.Simulator.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="521.703" d:DesignWidth="488.462"
+      Title="MenuPage" Background="Cyan">
+
+    <Grid>
+        <Button Content="New Game" HorizontalAlignment="Left" Margin="150,68,0,0" 
+                FontSize="28" FontStyle="Italic" FontFamily="Consolas" Background="#FFD17D"
+                VerticalAlignment="Top" Width="200" Height="100" Click="ButtonClickNewGame"/>
+        <Button Content="HighScores" HorizontalAlignment="Left" Margin="150,212,0,0" 
+                FontSize="28" FontStyle="Italic" FontFamily="Consolas" Background="#FFD17D"
+                VerticalAlignment="Top" Width="200" Height="100" Click="ButtonClickHighScores"/>
+        <Button Content="Settings" HorizontalAlignment="Left" Margin="150,358,0,0" 
+                FontSize="28" FontStyle="Italic" FontFamily="Consolas" Background="#FFD17D"
+                VerticalAlignment="Top" Width="200" Height="100" Click="ButtonClickSettings"/>
+    </Grid>
+</Page>
